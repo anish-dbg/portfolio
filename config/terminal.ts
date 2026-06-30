@@ -28,11 +28,11 @@ export const terminal: TerminalConfig = {
   about: [
     "Name:   Anish Kumar",
     "Age:    22",
-    "Base:   Earth",
-    "Role:   Software Engineer",
+    "Base:   India",
+    "Role:   AI Engineer",
     "",
-    "Short bio line one.",
-    "Short bio line two.",
+     "Curious about Technology.",
+    "Calm and Confident.",
   ],
   skills: [
     "Languages:  TypeScript · Go · Python",
@@ -41,14 +41,14 @@ export const terminal: TerminalConfig = {
     "DevOps:     Docker · AWS · Vercel",
   ],
   experience: [
-    "Acme Corp    Jan 2024 – Present   Senior Software Engineer",
-    "Globex       2022 – 2023          Software Engineer",
-    "Initech      Summer 2021          Intern",
+    // "Acme Corp    Jan 2024 – Present   Senior Software Engineer",
+    // "Globex       2022 – 2023          Software Engineer",
+    "Neo Skillz      Summer 2026         Intern",
   ],
   contact: [
-    "email:    hello@example.com",
-    "github:   github.com/janedeveloper",
-    "twitter:  x.com/janedeveloper",
+    "email:    anishkr0098@gmail.com",
+    "github:   https://github.com/anish-dbg",
+    "twitter:  https://x.com/anishkr_dbg",
     "cal:      cal.com/janedeveloper",
   ],
   resume: [
@@ -57,10 +57,10 @@ export const terminal: TerminalConfig = {
   ],
   whoami: [
     "Anish Kumar",
-    "Software Engineer · Earth",
+    "AI Engineer · India",
     "",
-    "A short, opinionated sentence about",
-    "what you build and why it matters.",
+    "Curious about Technology.",
+    "Calm and Confident.",
   ],
   githubJson: `{"login":"anish-kr","name":"Anish Kumar","bio":"Software Engineer","public_repos":42}`,
 }

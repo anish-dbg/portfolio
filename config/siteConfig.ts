@@ -87,11 +87,11 @@ export const siteConfig: SiteConfig = {
     lastName: "Kumar",
     fullName: "Anish Kumar",
     initials: "AK",
-    role: "Software Engineer",
-    shortRole: "Full-Stack Software Engineer",
+    role: "AI Engineer",
+    shortRole: "AI Engineer",
     tagline:
-      "A short, opinionated sentence about what you build and why it matters. Keep it two sentences at most — this is the first thing visitors read.",
-    location: "Earth",
+      "I'm passionate about using technology to create better user experiences. Throughout my journey, I've focused on solving complex problems. I like breaking down complicated technical challenges into straightforward solutions that anyone can understand, I'm curious about artificial Intelligence, especially its working principles and long-term impact on Technology and society.",
+    location: "India",
     age: 22,
     avatar: "/avatar.svg",
     username: "anish-kr",
@@ -99,21 +99,21 @@ export const siteConfig: SiteConfig = {
 
   social: {
     github: "https://github.com/anish-dbg",
-    twitter: "https://x.com/janedeveloper",
+    twitter: "https://x.com/anishkr_dbg",
     blog: "https://example.com/blog",
     githubUsername: "anish-dbg",
-    twitterHandle: "janedeveloper",
+    twitterHandle: "anish-dbg",
   },
 
   contact: {
-    email: "hello@example.com",
+    email: "anishkr0098@gmail.com",
     calendar: "https://cal.com/janedeveloper",
     heading: "Let's Connect",
     subheading: "Open to collaborations, freelance work, or just a conversation.",
     rows: [
-      { icon: "mail",     href: "mailto:hello@example.com",             label: "Email",           mono: "hello@example.com" },
+      { icon: "mail",     href: "anishkr0098@gmail.com",                 label: "Email",           mono: "anishkr0098@gmail.com" },
       { icon: "calendar", href: "https://cal.com/janedeveloper",         label: "Schedule a call", mono: "cal.com/janedeveloper" },
-      { icon: "twitter",  href: "https://x.com/janedeveloper",           label: "X / Twitter",     mono: "@janedeveloper" },
+      { icon: "twitter",  href: "https://x.com/anishkr_dbg",           label: "X / Twitter",     mono: "@anish-dbg" },
       { icon: "github",   href: "https://github.com/anish-dbg",           label: "GitHub",          mono: "anish-dbg" },
     ],
   },

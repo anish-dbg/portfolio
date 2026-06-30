@@ -27,35 +27,35 @@ export interface ProjectsConfig {
 
 export const projects: ProjectsConfig = {
   personal: [
-    {
-      title: "Example Project",
-      description: "One-sentence description of what you built and why it matters.",
-      tech: ["TypeScript", "Next.js", "PostgreSQL"],
-      stars: 42,
-      link: "https://github.com/janedeveloper/example-project",
-    },
-    {
-      title: "Another Project",
-      description: "A second example. Keep each description tight — two lines max reads best.",
-      tech: ["Go", "Redis"],
-      link: "https://github.com/janedeveloper/another-project",
-    },
-    {
-      title: "Paused Experiment",
-      description: "A project you started but haven't touched in a while — mark it with a status.",
-      tech: ["Rust"],
-      status: "Paused",
-      link: "https://github.com/janedeveloper/experiment",
-    },
+    // {
+    //   title: "Example Project",
+    //   description: "One-sentence description of what you built and why it matters.",
+    //   tech: ["TypeScript", "Next.js", "PostgreSQL"],
+    //   stars: 42,
+    //   link: "https://github.com/janedeveloper/example-project",
+    // },
+    // {
+    //   title: "Another Project",
+    //   description: "A second example. Keep each description tight — two lines max reads best.",
+    //   tech: ["Go", "Redis"],
+    //   link: "https://github.com/janedeveloper/another-project",
+    // },
+    // {
+    //   title: "Paused Experiment",
+    //   description: "A project you started but haven't touched in a while — mark it with a status.",
+    //   tech: ["Rust"],
+    //   status: "Paused",
+    //   link: "https://github.com/janedeveloper/experiment",
+    // },
   ],
 
   client: [
-    {
-      title: "Client Work Sample",
-      description: "Replace with a short, neutral description of client work you want to show off.",
-      tech: ["React", "TailwindCSS"],
-      link: "https://example.com",
-    },
+    // {
+    //   title: "Client Work Sample",
+    //   description: "Replace with a short, neutral description of client work you want to show off.",
+    //   tech: ["React", "TailwindCSS"],
+    //   link: "https://example.com",
+    // },
   ],
 }
 

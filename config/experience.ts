@@ -28,41 +28,43 @@ export interface ExperienceItem {
 
 export const experience: ExperienceItem[] = [
   {
-    company: "Acme Corp",
-    role: "Senior Software Engineer",
-    period: "Jan 2024 – Present",
-    description: "Short one-line summary of what you do here.",
-    tech: ["TypeScript", "React", "Node.js", "PostgreSQL"],
+    company: "Neo Skillz",
+    role: "AI/ML Intern",
+    period: "Summer intern jun-sep 2026",
+    description: "Exploration of the Articial Intelligence",
+    tech: ["Python", "AI","ML","DL","NLP","MLOPs"],
     achievements: [
-      "Led the migration of a critical service from X to Y with zero downtime.",
-      "Mentored three junior engineers through design reviews and pairing.",
-      "Shipped a feature that drove a measurable 12% improvement in activation.",
+      " Learning and applying core concepts of Artificial Intelligence and Machine Learning",
+       " • Working with Python for data analysis, preprocessing, and basic model development",
+      "  • Understanding supervised and unsupervised learning techniques",
+       " • Implementing algorithms through hands-on exercises and mini-projects",
+       " • Developing a strong foundation in real-world AI/ML workflows."
     ],
   },
-  {
-    company: "Globex",
-    role: "Software Engineer",
-    period: "Jun 2022 – Dec 2023",
-    description: "What you built here, in a sentence.",
-    tech: ["Go", "Kubernetes", "Redis"],
-    achievements: [
-      "Built and owned the internal deploy pipeline used by 40+ engineers.",
-      "Reduced p99 latency of the core API from 800ms to 110ms.",
-    ],
-    links: [
-      { type: "website", url: "https://example.com", label: "example.com" },
-    ],
-  },
-  {
-    company: "Initech",
-    role: "Software Engineering Intern",
-    period: "Summer 2021",
-    description: "Your internship — one line.",
-    tech: ["Python", "AWS"],
-    achievements: [
-      "Wrote an internal data pipeline tool still in use today.",
-    ],
-  },
+  // {
+  //   company: "Globex",
+  //   role: "Software Engineer",
+  //   period: "Jun 2022 – Dec 2023",
+  //   description: "What you built here, in a sentence.",
+  //   tech: ["Go", "Kubernetes", "Redis"],
+  //   achievements: [
+  //     "Built and owned the internal deploy pipeline used by 40+ engineers.",
+  //     "Reduced p99 latency of the core API from 800ms to 110ms.",
+  //   ],
+  //   links: [
+  //     { type: "website", url: "https://example.com", label: "example.com" },
+  //   ],
+  // },
+  // {
+  //   company: "Initech",
+  //   role: "Software Engineering Intern",
+  //   period: "Summer 2021",
+  //   description: "Your internship — one line.",
+  //   tech: ["Python", "AWS"],
+  //   achievements: [
+  //     "Wrote an internal data pipeline tool still in use today.",
+  //   ],
+  // },
 ]
 
 // ── Résumé-only condensed version ────────────────────────────────────
@@ -78,24 +80,26 @@ export interface ResumeExperienceItem {
 
 export const resumeExperience: ResumeExperienceItem[] = [
   {
-    company: "Acme Corp",
-    role: "Senior Software Engineer",
-    period: "Jan 2024 – Present",
+    company: "Neo Skillz",
+    role: "AI/ML Intern",
+    period: "Jun 2026 – Present",
     bullets: [
-      "Led the migration of a critical service from X to Y with zero downtime.",
-      "Mentored three junior engineers through design reviews and pairing.",
-      "Shipped a feature that drove a measurable 12% improvement in activation.",
+      " Learning and applying core concepts of Artificial Intelligence and Machine Learning",
+      " Working with Python for data analysis, preprocessing, and basic model development",
+      " Understanding supervised and unsupervised learning techniques",
+      " Implementing algorithms through hands-on exercises and mini-projects",
+      " Developing a strong foundation in real-world AI/ML workflows."
     ],
   },
-  {
-    company: "Globex",
-    role: "Software Engineer",
-    period: "Jun 2022 – Dec 2023",
-    bullets: [
-      "Built and owned the internal deploy pipeline used by 40+ engineers.",
-      "Reduced p99 latency of the core API from 800ms to 110ms.",
-    ],
-  },
+  // {
+  //   company: "Globex",
+  //   role: "Software Engineer",
+  //   period: "Jun 2022 – Dec 2023",
+  //   bullets: [
+  //     "Built and owned the internal deploy pipeline used by 40+ engineers.",
+  //     "Reduced p99 latency of the core API from 800ms to 110ms.",
+  //   ],
+  // },
 ]
 
 // ── Education + Teaching ─────────────────────────────────────────────
@@ -107,9 +111,9 @@ export interface EducationItem {
 }
 
 export const education: EducationItem = {
-  school: "State University",
-  degree: "B.Sc. — Computer Science",
-  period: "2018 – 2022",
+   school: "LNCT University",
+   degree: "B.Tech — Computer Science",
+   period: "2023 – 2027",
 }
 
 export const teaching: string[] = [
